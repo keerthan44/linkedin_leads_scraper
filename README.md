@@ -1,4 +1,4 @@
-# LinkedIn Lead Finder (v2.0)
+# LinkedIn Leads Scraper
 
 A LinkedIn profile scraper and lead-finding tool for finding people that LinkedIn search misses.
 
