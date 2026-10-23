@@ -1,16 +1,12 @@
 # LinkedIn Lead Finder (v2.0)
 
-A LinkedIn profile scraper and lead-finding tool.
+A LinkedIn profile scraper and lead-finding tool for finding people that LinkedIn search misses.
 
-## Why it was built
+LinkedIn search only filters on preset fields like current company, connection degree and job title. This tool:
 
-Someone asked me if there was a way to find people on LinkedIn who know people in a specific industry. LinkedIn search only lets you filter on preset fields like current company, connection degree and job title, so a lot of relevant people never show up. I thought about how to get around that and built this.
-
-The idea:
-
-1. Collect full profile data (about, experience, education) from LinkedIn.
-2. Store it in a structured database with semantic embeddings.
-3. Run search and LLM-based analysis over that data to find people that LinkedIn's own filters miss.
+1. Collects full profile data (about, experience, education) from LinkedIn.
+2. Stores it in a structured database with semantic embeddings.
+3. Lets you search and run LLM-based analysis over that data to find people that LinkedIn's own filters miss.
 
 ## What it does
 
