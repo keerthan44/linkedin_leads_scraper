@@ -1,18 +1,16 @@
 # LinkedIn Lead Finder (v2.0)
 
-A LinkedIn profile scraper and lead-finding tool I built at **Kraftx**, an early-stage startup building AI voice agents for healthcare Revenue Cycle Management (RCM).
+A LinkedIn profile scraper and lead-finding tool.
 
 ## Why it was built
 
-The founders needed to reach people in the RCM industry, ideally people who knew other RCM people. LinkedIn search only lets you filter on preset fields like current company, connection degree and job title, so most relevant leads stayed hidden.
+Someone asked me if there was a way to find people on LinkedIn who know people in a specific industry. LinkedIn search only lets you filter on preset fields like current company, connection degree and job title, so a lot of relevant people never show up. I thought about how to get around that and built this.
 
-The plan was to:
+The idea:
 
 1. Collect full profile data (about, experience, education) from LinkedIn.
 2. Store it in a structured database with semantic embeddings.
-3. Run search and LLM-based analysis over that data to surface leads that LinkedIn's own filters miss.
-
-The project ran for a couple of weeks. It was shelved once the founders had enough warm introductions, and the team moved on to building the AR voice caller for RCM.
+3. Run search and LLM-based analysis over that data to find people that LinkedIn's own filters miss.
 
 ## What it does
 
@@ -93,8 +91,8 @@ python examples/example_linkedin_data_extractor.py  # 3. parse, embed and store
 
 ## Status
 
-Working prototype. Development stopped when the company changed priorities.
+Working prototype. Not under active development.
 
 ## Disclaimer
 
-Built for internal lead research. Automated scraping may break LinkedIn's Terms of Service. Use it responsibly, at low volume, and only on accounts you own.
+Built for personal lead research. Automated scraping may break LinkedIn's Terms of Service. Use it responsibly, at low volume, and only on accounts you own.
